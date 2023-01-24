@@ -68,6 +68,16 @@ header{
 #container-soft-skills{
     width: 90%;
 }
+.list-group-item-custom{
+    background-color: rgba(90, 90, 90, 0.75);
+    color: white;
+}
+.list-group-item-custom:hover{
+    background-color: rgba(139, 139, 139, 0.75);
+}
+.item-list-custom{
+    color: rgba(90, 90, 90);
+}
 .text-date-education{
     font-size: 13px;
     color: rgb(109, 109, 109);
@@ -106,4 +116,10 @@ header{
 }
 .container-proyect > img:hover{
     transform: scale(1.25);
+}
+/* Footer */
+footer{
+    background: rgb(28,54,67);
+    background: linear-gradient(90deg, rgba(90, 90, 90) 0%, rgb(59, 59, 59) 100%);
+    color: white;
 }
