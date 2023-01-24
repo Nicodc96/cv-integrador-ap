@@ -1,0 +1,89 @@
+/* Header */
+header{
+    background-color: rgb(59, 59, 59);
+}
+#header-nombre{
+    font-size: 56px;
+}
+.pipe-white{
+    width: 35vw;
+    border-radius: 5px;
+    height: 0.25vh;
+    background-color: white;
+}
+.btn-info-header{
+    border-radius: 35px;
+    height: 65px;
+    width: 65px;
+    padding: 5px;
+    transition: 0.35s;
+}
+.btn-info-header:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.border-button-custom{
+    border-right: 2px solid;
+    border-color: rgba(255, 255, 255, 0.85);
+}
+.container-button-custom{
+    height: auto;
+}
+.container-text-button{
+    padding-left: 3.3vw;
+    padding-top: 1vh;
+}
+.text-button-custom{
+    background-color: rgb(59, 59, 59);
+    border-color: rgba(255, 255, 255, 0.85);
+}
+.collapse-custom{
+    transition: all 0.35s;
+}
+/* Main */
+#pictureSection{
+    background-color: rgb(226, 226, 226);
+}
+.pipe-black{
+    width: 25vw;
+    border-radius: 5px;
+    height: 2.15px;
+    background-color: rgb(59, 59, 59);
+}
+.pipe-black-long{
+    width: 63vw;
+    margin-left: 0.5vw;
+}
+.personal-info{
+    padding-left: 3.9vw;
+}
+.progress{
+    padding: 0px;
+    width: 85%;
+    margin-left: 8px;
+}
+#txtIngles{
+    margin-bottom: 5px;
+}
+.text-date-education{
+    font-size: 13px;
+    color: rgb(109, 109, 109);
+}
+#containerBtnSeeMore{
+    height: 3vh;
+}
+#containerBtnSeeMore > p{
+    font-size: 16px;
+}
+#btnSeeMore{
+    border-radius: 15px;
+    transition: all 0.35s;
+}
+#btnSeeMore:hover{
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}
+.pipe-black-long-vertical{
+    width: 2.15px;
+    height: 100%;
+}
