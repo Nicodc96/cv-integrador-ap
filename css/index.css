@@ -44,6 +44,9 @@ header{
 #pictureSection{
     background-color: rgb(226, 226, 226);
 }
+.btn-contraer{
+    cursor: pointer;
+}
 .pipe-black{
     width: 25vw;
     border-radius: 5px;
