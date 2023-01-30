@@ -48,7 +48,7 @@ header{
 #pictureSection{
     background-color: rgb(226, 226, 226);
 }
-.btn-contraer{
+.btn-contraer, .btn-expandir{
     cursor: pointer;
 }
 .pipe-black{
