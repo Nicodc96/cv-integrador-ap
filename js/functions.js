@@ -1,15 +1,12 @@
 /*
-    Función que colapsa o retrae el contenedor de items de cada sección.
-    Recibe por parámetro las referencias del contenedor a expandir/colapsar
-    y el botón cuyo evento manejará la acción.
+    Función que cambia la imagen SVG dependiendo si la categoría
+    está expandida o no.
 */
-const colapsar = (refBoton, refContenedorItems) => {
+const change_svg_form = (refBoton, refContenedorItems) => {
     refBoton.addEventListener("click", () => {
-        if (refContenedorItems.classList.contains("visually-hidden")){
-            refContenedorItems.classList.remove("visually-hidden");
+        if (refContenedorItems.classList.contains("show")){
             change_status_svg(refBoton);
         } else{
-            refContenedorItems.classList.add("visually-hidden");
             change_status_svg(refBoton);
         }
     });
@@ -35,7 +32,7 @@ const change_status_svg = (elementSVG) => {
     cuadro con el símbolo '-' en su interior. Por eso se genera con sus respectivos
     atributos y elementos.
 */
-const svg_colapsar = (id) => {
+const svg_colapsar = (id, id_contenedor) => {
     const svg = createElementCustom("svg",
         {"id":id, 
         "width":"44", 
@@ -45,7 +42,9 @@ const svg_colapsar = (id) => {
         "stroke":"#000000",
         "fill":"none",
         "stroke-linecap":"round",
-        "stroke-linejoin":"round"
+        "stroke-linejoin":"round",
+        "data-bs-toggle":"collapse",
+        "href": id_contenedor
     });
     svg.classList.add(...["icon", "icon-tabler", "icon-tabler-square-minus", "btn-contraer"]);
     // Creo sus dependencias de la misma manera y los uno al svg principal
@@ -74,4 +73,4 @@ function createElementCustom(tipo, atributos){
     return newElementSVG;
 }
 
-export { colapsar, svg_colapsar };
+export { change_svg_form, svg_colapsar };

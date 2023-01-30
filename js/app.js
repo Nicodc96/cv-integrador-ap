@@ -1,4 +1,4 @@
-import { colapsar, svg_colapsar } from "./functions.js";
+import { change_svg_form, svg_colapsar } from "./functions.js";
 
 /* Referencia de contenedores */
 const $contenedor_educacion = document.querySelector("#containerEducationItems");
@@ -13,10 +13,10 @@ const $contenedor_btn_habilidades = document.querySelector("#containerAbilitiesB
 const $contenedor_btn_proyectos = document.querySelector("#containerProyectsButton");
 
 // ----> Al contenedor del texto de cada sección le agrego el archivo SVG de manera dinámica
-$contenedor_btn_educacion.appendChild(svg_colapsar("btnCollapseEducation"));
-$contenedor_btn_trabajo.appendChild(svg_colapsar("btnCollapseWork"));
-$contenedor_btn_habilidades.appendChild(svg_colapsar("btnCollapseAbilities"));
-$contenedor_btn_proyectos.appendChild(svg_colapsar("btnCollapseProyects"));
+$contenedor_btn_educacion.appendChild(svg_colapsar("btnCollapseEducation", "#containerEducationItems"));
+$contenedor_btn_trabajo.appendChild(svg_colapsar("btnCollapseWork", "#containerWorkItems"));
+$contenedor_btn_habilidades.appendChild(svg_colapsar("btnCollapseAbilities", "#containerAbilityItems"));
+$contenedor_btn_proyectos.appendChild(svg_colapsar("btnCollapseProyects", "#containerProyects"));
 
 /* Referencia de botones */
 const $boton_colapsar_educacion = document.querySelector("#btnCollapseEducation");
@@ -24,7 +24,7 @@ const $boton_colapsar_trabajo = document.querySelector("#btnCollapseWork");
 const $boton_colapsar_habilidades = document.querySelector("#btnCollapseAbilities");
 const $boton_colapsar_proyectos = document.querySelector("#btnCollapseProyects");
 
-colapsar($boton_colapsar_educacion, $contenedor_educacion, $contenedor_btn_educacion);
-colapsar($boton_colapsar_trabajo, $contenedor_trabajo, $contenedor_btn_trabajo);
-colapsar($boton_colapsar_habilidades, $contenedor_habilidades, $contenedor_btn_habilidades);
-colapsar($boton_colapsar_proyectos, $contenedor_proyectos, $contenedor_btn_proyectos);
+change_svg_form($boton_colapsar_educacion, $contenedor_educacion);
+change_svg_form($boton_colapsar_trabajo, $contenedor_trabajo);
+change_svg_form($boton_colapsar_habilidades, $contenedor_habilidades);
+change_svg_form($boton_colapsar_proyectos, $contenedor_proyectos);
