@@ -30,7 +30,6 @@ header{
     height: auto;
 }
 .container-text-button{
-    padding-left: 3.3vw;
     padding-top: 1vh;
 }
 .text-button-custom{
@@ -129,4 +128,102 @@ footer{
     background: rgb(28,54,67);
     background: linear-gradient(90deg, rgba(90, 90, 90) 0%, rgb(59, 59, 59) 100%);
     color: white;
+}
+/* Responsive Zone */
+@media screen and (max-width:1260px){
+    #header-titulo{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1023px){
+    .a-svg{
+        display: none;
+    }
+}
+@media screen and (max-width:983px){
+    #collapseInfoLoc > article > img{
+        display: none;
+    }
+}
+@media screen and (max-width:924px){
+    #collapseInfoTelefono > article, #collapseInfoLoc > article, #collapseInfoEmail > article{
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+    #collapseInfoEmail > article > a, #collapseInfoTelefono > article > a{
+        width: max-content;
+    }
+}
+@media screen and (max-width:870px){
+}
+@media screen and (max-width:830px){
+
+    #collapseInfoEmail > article > a, #collapseInfoTelefono > article > a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:770px){
+    #collapseInfoTelefono > article, #collapseInfoLoc > article, #collapseInfoEmail > article{
+        font-size: 14px;
+    }
+    #collapseInfoGithub > article{
+        font-size: 14px;
+        padding-top: 1.65vh;
+        padding-bottom: 1.65vh;
+    }
+}
+@media screen and (max-width:740px){
+    .a-normal{
+        display: none;
+    }
+    .a-svg{
+        display: block;
+    }
+}
+@media screen and (max-width:666px){
+    #collapseInfoLoc > article > p{
+        font-size: 12px;
+    }
+    #header-nombre{
+        font-size: 48px;
+    }
+}
+@media screen and (max-width:586px){
+    #collapseInfoLoc > article > p{
+        display: none;
+    }
+    #collapseInfoLoc > article > img{
+        display: flex;
+    }
+}
+@media screen and (max-width:570px){
+    #header-nombre{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:480px){
+    #header-nombre{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:433px){
+    #header-nombre{
+        font-size: 28px;
+    }
+    #header-titulo{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:353px){
+    .pipe-white{
+        width: 15vw;
+    }
+}
+@media screen and (max-width:343px){
+    #header-nombre{
+        font-size: 21px;
+    }
+    #header-titulo{
+        font-size: 16px;
+    }
 }
