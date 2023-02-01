@@ -154,11 +154,36 @@ footer{
         width: max-content;
     }
 }
-@media screen and (max-width:870px){
-}
 @media screen and (max-width:830px){
-
     #collapseInfoEmail > article > a, #collapseInfoTelefono > article > a{
+        font-size: 14px;
+    }
+    #containerPersonalInfoP p{
+        font-size: 16px!important;
+    }
+    .titles-personal-info p{
+        font-size: 24px!important;
+    }
+    #bodySection > section{
+        padding-top: 2vh!important;
+    }
+    #bodySection > section > p{
+        margin-bottom: 0px;
+    }
+    .title-item{
+        font-size: 16px!important;
+    }
+    .title-item > 
+    .education-item-title{
+        font-size: 14px!important;
+    }
+    #personalInfoArticle1{
+        padding-top: 2.5vh!important;
+    }
+    .secondary-title-tech-item{
+        font-size: 14px;
+    }
+    .primary-title-tech-item{
         font-size: 14px;
     }
 }
@@ -180,12 +205,52 @@ footer{
         display: block;
     }
 }
+@media screen and (max-width:685px){
+    .text-date-education{
+        text-align: center;
+    }
+    #pictureSection{
+        padding-top: 2vh!important;
+    }
+}
 @media screen and (max-width:666px){
     #collapseInfoLoc > article > p{
         font-size: 12px;
     }
     #header-nombre{
         font-size: 48px;
+    }
+}
+@media screen and (max-width:608px){
+    #containerPersonalInfoP p{
+        font-size: 14px!important;
+    }
+    .titles-personal-info p{
+        font-size: 20px!important;
+    }
+    .list-group-item{
+        font-size: 14px!important;
+    }
+    .title-item{
+        font-size: 14px!important;
+    }
+    .education-item-title{
+        font-size: 12px!important;
+    }
+    .secondary-title-tech-item{
+        font-size: 12px;
+    }
+    .primary-title-tech-item{
+        font-size: 12px;
+    }
+    #containerProyects > .pt-5{
+        padding-top: 2vh!important;
+    }
+    .text-date-education{
+        font-size: 12px;
+    }
+    #bodySection > section > p{
+        font-size: 14px!important;
     }
 }
 @media screen and (max-width:586px){
@@ -195,15 +260,44 @@ footer{
     #collapseInfoLoc > article > img{
         display: flex;
     }
+    .primary-title-tech-item{
+        font-size: 11px;
+    }
+    .secondary-title-tech-item{
+        font-size: 11px;
+    }
 }
 @media screen and (max-width:570px){
     #header-nombre{
         font-size: 40px;
     }
 }
+@media screen and (max-width:548px){
+    .primary-title-tech-item{
+        display: none;
+    }
+    .secondary-title-tech-item{
+        display: none;
+    }
+    .title-item{
+        font-size: 12px!important;
+    }
+}
+@media screen and (max-width:500px){
+    .list-group-item{
+        font-size: 12px!important;
+    }
+}
 @media screen and (max-width:480px){
     #header-nombre{
         font-size: 36px;
+    }
+    .img-tech{
+        height: 35px;
+        width: 35px;
+    }
+    .titles-personal-info p{
+        font-size: 16px!important;
     }
 }
 @media screen and (max-width:433px){

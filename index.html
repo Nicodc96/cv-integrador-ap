@@ -110,23 +110,29 @@
                         <img src="./assets/images/picture.jpg" id="fotoPersonal" class="img-fluid rounded-4" style="max-height: 35vh;" alt="foto_personal">
                     </figure>
                 </article>
-                <article class="row pt-5 personal-info">
+                <article class="row pt-5 personal-info" id="personalInfoArticle1">
                     <div class="col">
                         <div class="pipe-black"></div>
-                        <p class="fs-2 fw-semibold titulos-picture-section mb-0 mt-1">DATOS</p>
-                        <p class="fs-2 fw-semibold titulos-picture-section mb-1">PERSONALES</p>
+                        <section class="titles-personal-info">
+                            <p class="fs-2 fw-semibold titulos-picture-section mb-0 mt-1">DATOS</p>
+                            <p class="fs-2 fw-semibold titulos-picture-section mb-1">PERSONALES</p>
+                        </section>
                         <div class="pipe-black mb-3"></div>
-                        <p class="fs-5 fst-italic">Fecha Nacimiento: <span class="fw-semibold fst-normal">22/01/1996</span></p>
-                        <p class="fs-5 fst-italic">Nacionalidad: <span class="fw-semibold fst-normal">Argentino</span></p>
-                        <p class="fs-5 fst-italic">Estado Civil: <span class="fw-semibold fst-normal">Soltero</span></p>
-                        <p class="fs-5 fst-italic">CUIL: <span class="fw-semibold fst-normal">20-39468894-1</span></p>
+                        <section id="containerPersonalInfoP">
+                            <p class="fs-5 fst-italic">Fecha Nacimiento: <span class="fw-semibold fst-normal">22/01/1996</span></p>
+                            <p class="fs-5 fst-italic">Nacionalidad: <span class="fw-semibold fst-normal">Argentino</span></p>
+                            <p class="fs-5 fst-italic">Estado Civil: <span class="fw-semibold fst-normal">Soltero</span></p>
+                            <p class="fs-5 fst-italic">CUIL: <span class="fw-semibold fst-normal">20-39468894-1</span></p>
+                        </section>
                     </div>
                 </article>
                 <article class="row personal-info mb-4">
                     <section class="col">
                         <div class="pipe-black"></div>
-                        <p class="fs-2 fw-semibold titulos-picture-section mb-0 mt-1">HABILIDADES</p>
-                        <p class="fs-2 fw-semibold titulos-picture-section mb-1">BLANDAS</p>
+                        <section class="titles-personal-info">
+                            <p class="fs-2 fw-semibold titulos-picture-section mb-0 mt-1">HABILIDADES</p>
+                            <p class="fs-2 fw-semibold titulos-picture-section mb-1">BLANDAS</p>
+                        </section>
                         <div class="pipe-black mb-3"></div>
                     </section>
                     <section id="container-soft-skills" class="pt-3 pb-2">
@@ -143,25 +149,27 @@
                 <article class="row personal-info pb-4">
                     <section class="col">
                         <div class="pipe-black"></div>
-                        <p class="fs-2 fw-semibold titulos-picture-section mb-1 mt-1">IDIOMAS</p>
+                        <section class="titles-personal-info">
+                            <p class="fs-2 fw-semibold titulos-picture-section mb-1 mt-1">IDIOMAS</p>
+                        </section>
                         <div class="pipe-black mb-3"></div>
                     </section>
                     <!-- Sección Idiomas - Barras de progreso -->
                     <section id="containerLangsItems">
                         <article>
-                            <p class="fs-5 fw-semibold" id="txtIngles">Inglés</p>
+                            <p class="fs-5 fw-semibold title-item">Inglés</p>
                             <div class="progress bg-light" role="progressbar" aria-label="English Level" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%"><span class="fw-semibold">65%</span></div>
                             </div>
                         </article>
                         <article>
-                            <p class="fs-5 fw-semibold pt-3" id="txtIngles">Portugués</p>
+                            <p class="fs-5 fw-semibold pt-3 title-item">Portugués</p>
                             <div class="progress bg-light" role="progressbar" aria-label="Portuguese Level" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 10%"><span class="fw-semibold">10%</span></div>
                             </div>
                         </article>
                         <article>
-                            <p class="fs-5 fw-semibold pt-3" id="txtIngles">Español</p>
+                            <p class="fs-5 fw-semibold pt-3 title-item">Español</p>
                         <div class="progress bg-light" role="progressbar" aria-label="Spanish Level" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 100%"><span class="fw-semibold">100%</span></div>
                         </div>
@@ -178,29 +186,33 @@
                 <section class="row px-3">
                     <div class="pipe-black pipe-black-long mt-4"></div>
                     <article class="d-flex flex-row align-content-center align-items-center justify-content-between" id="containerEducationButton">
-                    <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">educación</p>
+                        <section class="titles-personal-info">
+                            <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">educación</p>
+                        </section>
                     </article>
                     <div class="pipe-black pipe-black-long"></div>
                     <!-- Sección Educación - Items -->
                     <section id="containerEducationItems" class="collapse show">
                         <article class="d-flex pt-3">
                             <section class="col col-4 d-flex flex-column align-items-center pt-3">
-                                <p class="fs-4 text-center mb-0">Universidad Tecnológica Nacional</p>
+                                <p class="fs-4 text-center mb-0 title-item">Universidad Tecnológica Nacional</p>
                                 <p class="text-date-education mb-0">Jul 2019 - Actualidad</p>
                             </section>
                             <section class="col col-8 pt-3">
-                                <div class="col col-10 d-flex flex-column align-content-center align-items-center">
-                                    <p class="mb-0"><span class="fst-italic fw-semibold text-decoration-underline">Carrera</span>: Técnico Universitario en Programación</p>
-                                    <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoUtn" aria-expanded="false">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                            <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
-                                            </svg>
-                                        <p class="mb-0">ver más</p>
-                                    </div>
-                                    <div class="collapse" id="collapseInfoUtn">
-                                        <div class="card card-body mt-2 bg-body-secondary">
-                                            <p class="mb-0"><span class="fst-italic">UTN Sede Avellaneda, Buenos Aires.</span> Tecnicatura de 2 años de duración, actualmente estudiando mientras realizo trabajos informales. Me encuentro en el 2do Año con 7 materias restantes.</p>
+                                <div class="row d-flex justify-content-center flex-wrap">
+                                    <div class="col col-10 d-flex flex-column align-content-center align-items-center">
+                                        <p class="mb-0 text-center education-item-title"><span class="fst-italic fw-semibold text-decoration-underline">Carrera</span>: Técnico Universitario en Programación</p>
+                                        <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoUtn" aria-expanded="false">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
+                                                </svg>
+                                            <p class="mb-0 education-item-title">ver más</p>
+                                        </div>
+                                        <div class="collapse" id="collapseInfoUtn">
+                                            <div class="card card-body mt-2 bg-body-secondary">
+                                                <p class="mb-0"><span class="fst-italic">UTN Sede Avellaneda, Buenos Aires.</span> Tecnicatura de 2 años de duración, actualmente estudiando mientras realizo trabajos informales. Me encuentro en el 2do Año con 7 materias restantes.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -208,45 +220,49 @@
                         </article>
                         <article class="d-flex pt-3">
                             <section class="col col-4 d-flex flex-column align-items-center pt-3">
-                                <p class="fs-4 text-center mb-0">Universidad de Buenos Aires</p>
+                                <p class="fs-4 text-center mb-0 title-item">Universidad de Buenos Aires</p>
                                 <p class="text-date-education mb-0">Abril 2018 - Jun 2019</p>
                             </section>
                             <section class="col col-8 pt-3">
-                                <div class="col col-10 d-flex flex-column align-items-center">
-                                    <p class="mb-0"><span class="fst-italic fw-semibold text-decoration-underline">Carrera</span>: Ingenieria en Informática</p>
-                                    <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoUba" aria-expanded="false">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                            <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
-                                        </svg>
-                                        <p class="mb-0">ver más</p>
-                                    </div>
-                                    <div class="collapse" id="collapseInfoUba">
-                                        <div class="card card-body mt-2 bg-body-secondary">
-                                            <p class="mb-0"><span class="fst-italic">UBA Sede Avellaneda, Buenos Aires.</span> Carrera de 5 años, realicé el CBC en la sede Avellaneda aprobando 5/6 materias. Cambié de carrera por cuestiones de tiempo y necesidad.</p>
+                                <div class="row d-flex justify-content-center flex-wrap">
+                                    <div class="col col-10 d-flex flex-column align-items-center">
+                                        <p class="mb-0 text-center education-item-title"><span class="fst-italic fw-semibold text-decoration-underline">Carrera</span>: Ingenieria en Informática</p>
+                                        <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoUba" aria-expanded="false">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
+                                            </svg>
+                                            <p class="mb-0 education-item-title">ver más</p>
+                                        </div>
+                                        <div class="collapse" id="collapseInfoUba">
+                                            <div class="card card-body mt-2 bg-body-secondary">
+                                                <p class="mb-0"><span class="fst-italic">UBA Sede Avellaneda, Buenos Aires.</span> Carrera de 5 años, realicé el CBC en la sede Avellaneda aprobando 5/6 materias. Cambié de carrera por cuestiones de tiempo y necesidad.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
                         </article>
-                        <article class="d-flex pt-4">
+                        <article class="row d-flex pt-4">
                             <section class="col col-4 d-flex flex-column align-items-center pt-3">
-                                <p class="text-uppercase text-center fs-4 mb-0">ecea</p>
+                                <p class="text-uppercase text-center fs-4 mb-0 title-item">ecea</p>
                                 <p class="text-date-education mb-0">Mar 2008 - Dic 2014</p>
                             </section>
                             <section class="col col-8 pt-3">
-                                <div class="col col-10 d-flex flex-column align-items-center">
-                                    <p class="mb-0"><span class="fst-italic fw-semibold text-decoration-underline">Título</span>: Bachiller en Ciencias Sociales</p>
-                                    <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoSecundaria" aria-expanded="false">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                            <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
-                                        </svg>
-                                        <p class="mb-0">ver más</p>
-                                    </div>
-                                    <div class="collapse" id="collapseInfoSecundaria">
-                                        <div class="card card-body mt-2 bg-body-secondary">
-                                            <p class="mb-0"><span class="fst-italic">Lanús Oeste, Buenos Aires.</span> Bachillerato orientado a Ciencias Sociales, egresado año 2014. Aunque mis estudios secundarios no fueron técnicos, siempre me apasionó la informática.</p>
+                                <div class="row d-flex justify-content-center f lex-wrap">
+                                    <div class="col col-10 d-flex flex-column align-items-center">
+                                        <p class="mb-0 text-center education-item-title"><span class="fst-italic fw-semibold text-decoration-underline">Título</span>: Bachiller en Ciencias Sociales</p>
+                                        <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoSecundaria" aria-expanded="false">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
+                                            </svg>
+                                            <p class="mb-0 education-item-title">ver más</p>
+                                        </div>
+                                        <div class="collapse" id="collapseInfoSecundaria">
+                                            <div class="card card-body mt-2 bg-body-secondary">
+                                                <p class="mb-0"><span class="fst-italic">Lanús Oeste, Buenos Aires.</span> Bachillerato orientado a Ciencias Sociales, egresado año 2014. Aunque mis estudios secundarios no fueron técnicos, siempre me apasionó la informática.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -257,14 +273,16 @@
                 <section class="row px-3">
                     <div class="pipe-black pipe-black-long mt-4"></div>
                     <article class="d-flex flex-row align-content-center align-items-center justify-content-between" id="containerWorkButton">
-                        <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">experiencia laboral</p>
+                        <section class="titles-personal-info">
+                            <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">experiencia laboral</p>
+                        </section>
                     </article>
                     <div class="pipe-black pipe-black-long"></div>
                     <!-- Sección Experiencia Laboral - Items - -->
                     <section id="containerWorkItems" class="collapse show">
                         <article class="d-flex pt-3">
                             <section class="col col-6 d-flex flex-column align-items-center pt-3">
-                                <p class="fs-4 text-center mb-0">DC Díaz Computación</p>
+                                <p class="fs-4 text-center mb-0 title-item">DC Díaz Computación</p>
                                 <p class="text-date-education mb-0">Nov 2019 - Feb. 2022</p>
                             </section>
                             <section class="col col-6 pt-3 d-flex">
@@ -277,13 +295,13 @@
                                     <div class="pipe-black pipe-black-long-vertical"></div>
                                 </article>
                                 <article class="col d-flex flex-column align-content-center align-items-center">
-                                    <p class="mb-0"><span class="text-secondary">Ayudante</span> - Técnico de computación</p>
+                                    <p class="mb-0 education-item-title"><span class="text-secondary">Ayudante</span> - Técnico de computación</p>
                                     <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-corner-down-right" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoJob1" aria-expanded="false">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                             <path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" />
                                         </svg>
-                                        <p class="mb-0">más info</p>
+                                        <p class="mb-0 education-item-title">más info</p>
                                     </div>
                                     <div class="collapse" id="collapseInfoJob1">
                                         <div class="card card-body mt-2 bg-body-secondary">
@@ -295,7 +313,7 @@
                         </article>
                         <article class="d-flex pt-3">
                             <section class="col col-6 d-flex flex-column align-items-center pt-3">
-                                <p class="fs-4 text-center mb-0">Textiles S.A</p>
+                                <p class="fs-4 text-center mb-0 title-item">Textiles S.A</p>
                                 <p class="text-date-education mb-0">Jun 2019 - Sep. 2022</p>
                             </section>
                             <section class="col col-6 pt-3 d-flex">
@@ -308,13 +326,13 @@
                                     <div class="pipe-black pipe-black-long-vertical"></div>
                                 </article>
                                 <article class="col d-flex flex-column align-content-center align-items-center">
-                                    <p class="mb-0"><span class="text-secondary">Ayudante</span> - Depósito y Logística</p>
+                                    <p class="mb-0 education-item-title"><span class="text-secondary">Ayudante</span> - Depósito y Logística</p>
                                     <div class="d-flex flex-row gap-2 align-items-center mt-2" id="containerBtnSeeMore">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-corner-down-right" id="btnSeeMore" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" data-bs-toggle="collapse" data-bs-target="#collapseInfoJob2" aria-expanded="false">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                             <path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" />
                                         </svg>
-                                        <p class="mb-0">más info</p>
+                                        <p class="mb-0 education-item-title">más info</p>
                                     </div>
                                     <div class="collapse" id="collapseInfoJob2">
                                         <div class="card card-body mt-2 bg-body-secondary">
@@ -329,7 +347,9 @@
                 <section class="row px-3">
                     <div class="pipe-black pipe-black-long mt-4"></div>
                     <article class="d-flex flex-row align-content-center align-items-center justify-content-between" id="containerAbilitiesButton">
-                        <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">habilidades</p>
+                        <section class="titles-personal-info">
+                            <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">habilidades</p>
+                        </section>
                     </article>
                     <div class="pipe-black pipe-black-long"></div>
                     <!-- Sección Habilidades - Items -->
@@ -337,68 +357,68 @@
                         <article>
                             <section class="row mt-4">
                                 <article class="col">
-                                    <p class="fs-5 fw-semibold text-center">Lenguajes de programación</p>
+                                    <p class="fs-5 fw-semibold text-center title-item">Lenguajes de programación</p>
                                 </article>
                             </section>
                             <section class="row mt-0">
                                 <article class="col-3 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">JavaScript</p>
-                                    <p class="fw-lighter text-secondary-emphasis">Nivel Intermedio-Avanzado</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">JavaScript</p>
+                                    <p class="fw-lighter text-secondary-emphasis text-center mb-0 secondary-title-tech-item">Nivel Intermedio-Avanzado</p>
                                 </article>
                                 <article class="col-3 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">PHP</p>
-                                    <p class="fw-lighter text-secondary-emphasis">Nivel Intermedio</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">PHP</p>
+                                    <p class="fw-lighter text-secondary-emphasis text-center mb-0 secondary-title-tech-item">Nivel Intermedio</p>
                                 </article>
                                 <article class="col-3 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">C#</p>
-                                    <p class="fw-lighter text-secondary-emphasis">Nivel Intermedio</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">C#</p>
+                                    <p class="fw-lighter text-secondary-emphasis text-center mb-0 secondary-title-tech-item">Nivel Intermedio</p>
                                 </article>
                                 <article class="col-3 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">C</p>
-                                    <p class="fw-lighter text-secondary-emphasis">Nivel Intermedio</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">C</p>
+                                    <p class="fw-lighter text-secondary-emphasis text-center mb-0 secondary-title-tech-item">Nivel Intermedio</p>
                                 </article>
                             </section>
                         </article>
                         <article>
                             <section class="row mt-4">
                                 <article class="col">
-                                    <p class="fs-5 fw-semibold text-center">Tecnologías</p>
+                                    <p class="fs-5 fw-semibold text-center title-item">Tecnologías</p>
                                 </article>
                             </section>
                             <section class="row mt-0">
                                 <article class="col-2 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">Bootstrap</p>
-                                    <p class="fw-lighter text-secondary-emphasis">Nivel Avanzado</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">Bootstrap</p>
+                                    <p class="fw-lighter text-center text-secondary-emphasis mb-0 secondary-title-tech-item">Nivel Avanzado</p>
                                 </article>
                                 <article class="col-2 d-flex flex-column align-items-center">
-                                    <img src="./assets/icons/slim-framework-icon.png" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">Slim Framework</p>
-                                    <p class="fw-lighter text-center text-secondary-emphasis">Nivel Básico-Intermedio</p>
+                                    <img src="./assets/icons/slim-framework-icon.png" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">Slim Framework</p>
+                                    <p class="fw-lighter text-center text-secondary-emphasis mb-0 secondary-title-tech-item">Nivel Básico-Intermedio</p>
                                 </article>
                                 <article class="col-2 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">Node.js</p>
-                                    <p class="fw-lighter text-center text-secondary-emphasis">Nivel Básico-Intermedio</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">Node.js</p>
+                                    <p class="fw-lighter text-center text-secondary-emphasis mb-0 secondary-title-tech-item">Nivel Básico-Intermedio</p>
                                 </article>
                                 <article class="col-2 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">MySQL</p>
-                                    <p class="fw-lighter text-secondary-emphasis">Nivel Intermedio</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">MySQL</p>
+                                    <p class="fw-lighter text-center text-secondary-emphasis mb-0 secondary-title-tech-item">Nivel Intermedio</p>
                                 </article>
                                 <article class="col-2 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">HTML5</p>
-                                    <p class="fw-lighter text-center text-secondary-emphasis">Nivel Intermedio-Avanzado</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">HTML5</p>
+                                    <p class="fw-lighter text-center text-secondary-emphasis mb-0 secondary-title-tech-item">Nivel Intermedio-Avanzado</p>
                                 </article>
                                 <article class="col-2 d-flex flex-column align-items-center">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="50px" width="50px"/>
-                                    <p class="fw-semibold mb-0">CSS3</p>
-                                    <p class="fw-lighter text-center text-secondary-emphasis">Nivel Intermedio-Avanzado</p>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="img-tech" height="50px" width="50px"/>
+                                    <p class="fw-semibold mb-0 text-center primary-title-tech-item">CSS3</p>
+                                    <p class="fw-lighter text-center text-secondary-emphasis mb-0 secondary-title-tech-item">Nivel Intermedio-Avanzado</p>
                                 </article>
                             </section>
                         </article>
@@ -407,47 +427,49 @@
                 <section class="row px-3 pb-5">
                     <div class="pipe-black pipe-black-long mt-4"></div>
                     <article class="d-flex flex-row align-content-center align-items-center justify-content-between" id="containerProyectsButton">
-                        <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">Proyectos</p>
+                        <section class="titles-personal-info">
+                            <p class="fs-2 fw-semibold mb-1 mt-1 text-uppercase px-4">Proyectos</p>
+                        </section>
                     </article>
                     <div class="pipe-black pipe-black-long"></div>
                     <!-- Sección Proyectos - Items -->
                     <section id="containerProyects" class="collapse show">
                         <section class="row">
                             <article class="col-6">
-                                <p class="text-center fw-semibold fs-5">Veterinaria - Examen Parcial UTN Fra</p>
+                                <p class="text-center fw-semibold fs-5 title-item">Veterinaria - Examen UTN Fra</p>
                                 <a href="https://github.com/Nicodc96/diaz.PPLABIII3D" class="container-proyect d-flex justify-content-center">
                                     <img src="./assets/images/proyecto-lab3-pp.jpeg" class="img-fluid rounded">
                                 </a>
-                                <p class="text-center mb-0 pt-2">
+                                <p class="text-center mb-0 pt-2 primary-title-tech-item">
                                     Realicé un CRUD de Mascotas, utilizando formularios, tablas dinámicas, validaciones y localStorage como base de datos.
                                 </p>
                             </article>
                             <article class="col-6">
-                                <p class="text-center fw-semibold fs-5">Integrador final - Codo a Codo</p>
+                                <p class="text-center fw-semibold fs-5 title-item">Integrador final - Codo a Codo</p>
                                 <a href="https://github.com/Nicodc96/CaC-TP-Integrador" class="container-proyect d-flex justify-content-center">
                                     <img src="./assets/images/proyecto-cac2.png" class="img-fluid rounded">
                                 </a>
-                                <p class="text-center mb-0 pt-2">
+                                <p class="text-center mb-0 pt-2 primary-title-tech-item">
                                     Consistió en replicar una página web utilizando las herramientas aprendidas (JS, HTML & CSS) y realizar un formulario para calcular el valor de un ticket según tenga o no descuento.
                                 </p>
                             </article>
                         </section>
                         <section class="row pt-5">
                             <article class="col-6">
-                                <p class="text-center fw-semibold fs-5">Práctica HTML & CSS - UTN Fra</p>
+                                <p class="text-center fw-semibold fs-5 title-item">Práctica HTML/CSS - UTN Fra</p>
                                 <a href="https://github.com/Nicodc96/lab3-ej-FrontEnd" class="container-proyect d-flex justify-content-center">
                                     <img src="./assets/images/proyecto-lab3.png" class="img-fluid rounded">
                                 </a>
-                                <p class="text-center mb-0 pt-2">
+                                <p class="text-center mb-0 pt-2 primary-title-tech-item">
                                     Proyecto orientado a poner en práctica las habilidades aprendidas durante la cursada de la materia "Laboratorio de Computación III". Adicionalmente, implementé el uso de Bootstrap para mejorar el aspecto visual.
                                 </p>
                             </article>
                             <article class="col-6">
-                                <p class="text-center fw-semibold fs-5">API Rest en PHP - UTN Fra</p>
+                                <p class="text-center fw-semibold fs-5 title-item">API Rest en PHP - UTN Fra</p>
                                 <a href="https://github.com/Nicodc96/TP_ProgIII_LaComanda" class="container-proyect d-flex justify-content-center">
                                     <img src="./assets/images/proyecto-apirest.jpeg" class="img-fluid rounded">
                                 </a>
-                                <p class="text-center mb-0 pt-2">
+                                <p class="text-center mb-0 pt-2 primary-title-tech-item">
                                     El trabajo práctico final de la materia "Programación III" consistió en desarrollar una API Rest que pueda consumir un restaurante, pudiendo hacer un CRUD de las distintas entidades y controlar el estado de un pedido. Implementé el uso de JWT y Middlewares.
                                 </p>
                             </article>
